@@ -27,11 +27,11 @@ const attendanceSchema = new mongoose.Schema({
   },
   studentLat: {
     type: Number,
-    required: true
+    required: false
   },
   studentLng: {
     type: Number,
-    required: true
+    required: false
   },
   distanceFromTeacher: {
     type: Number, // in meters
